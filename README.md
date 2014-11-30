@@ -1,4 +1,8 @@
 sss
 ===
 
-Shamir's Secret Sharing implementation
+This library contains Java implementation of the [Shamir's Secret Sharing](http://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing) algorithm.
+
+You can use it to split arbitrary data into a number of shares.
+In order to join shares back into the secret data, certain, minimum number of shares must be present.
+The library contains utlity functions for serializing and de-serializing shares into binary messages, for compact and easy storing and sharing.
