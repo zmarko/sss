@@ -49,7 +49,7 @@ public final class SasUtils {
     public static BigInteger encodeStringToInteger(String str) {
         byte[] bytes = str.getBytes(StandardCharsets.UTF_8);
         byte[] res;
-        if ((bytes[0] & 0b10000000) >> 7 == 1) {
+        if ((bytes[0] & 0b1000_0000) >> 7 == 1) {
             res = new byte[bytes.length + 1];
             res[0] = 0;
             System.arraycopy(bytes, 0, res, 1, bytes.length);

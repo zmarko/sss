@@ -84,10 +84,7 @@ public final class SecretShare {
         if (!Objects.equals(this.share, other.share)) {
             return false;
         }
-        if (!Objects.equals(this.prime, other.prime)) {
-            return false;
-        }
-        return true;
+        return Objects.equals(this.prime, other.prime);
     }
 
     @Override
