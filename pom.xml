@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>rs.in.zivanovic</groupId>
     <artifactId>sss</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     
     <name>${project.groupId}:${project.artifactId}</name>
@@ -41,7 +41,7 @@
         <connection>scm:git:git@github.com:zmarko/sss.git</connection>
         <developerConnection>scm:git:git@github.com:zmarko/sss.git</developerConnection>
         <url>git@github.com:zmarko/sss.git</url>
-      <tag>sss-1.0.0</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <dependencies>
