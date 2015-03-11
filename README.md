@@ -1,4 +1,6 @@
-sss
+[![Build Status](https://travis-ci.org/zmarko/sss.svg?branch=master)](https://travis-ci.org/zmarko/sss)
+
+sss 
 ===
 
 This library contains Java implementation of the [Shamir's Secret Sharing](http://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing) algorithm.
@@ -14,3 +16,4 @@ Artifacts are available in Maven Central repository at the following coordinates
         <artifactId>sss</artifactId>
         <version>1.0.0</version>
     </dependency>
+
